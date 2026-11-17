@@ -1,0 +1,18 @@
+/target
+**/target
+node_modules
+dist
+.work
+*.wasm
+pkg
+.DS_Store
+
+# examples/docs/queries.json and examples/docs/build.sh are source.
+# The paths below are produced by docs-rs-builder and build.sh.
+# doc-target is a full cargo doc tree and is the large one.
+examples/docs/doc-target
+examples/docs/pages
+examples/docs/search
+examples/docs/pkg
+examples/docs/rustwide
+examples/docs/content

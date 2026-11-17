@@ -1,0 +1,12 @@
+[package]
+name = "remixsearch-infer"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+description = "HNSW search and the int8 query encoder shared by native and WASM"
+
+[dependencies]
+remixsearch-format = { path = "../remixsearch-format" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"

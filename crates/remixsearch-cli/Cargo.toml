@@ -1,0 +1,18 @@
+[package]
+name = "remixsearch-cli"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+description = "Pack a site into a searchable remix"
+
+[[bin]]
+name = "remixsearch"
+path = "src/main.rs"
+
+[dependencies]
+remixsearch-format = { path = "../remixsearch-format" }
+remixsearch-infer = { path = "../remixsearch-infer" }
+remixsearch-build = { path = "../remixsearch-build" }
+remixsearch-train = { path = "../remixsearch-train" }
+clap = { version = "4", features = ["derive"] }
+serde_json = "1"

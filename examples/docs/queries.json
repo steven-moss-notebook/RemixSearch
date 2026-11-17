@@ -1,0 +1,72 @@
+[
+  {
+    "query": "how do i setup a search index in astro",
+    "positive_url": "/remixsearch_wasm/astro/index.html",
+    "kind": "passage"
+  },
+  {
+    "query": "how do I set up a search index in astro",
+    "positive_url": "/remixsearch_wasm/astro/index.html",
+    "kind": "passage"
+  },
+  {
+    "query": "how to add the remixsearch integration to an astro site",
+    "positive_url": "/remixsearch_wasm/astro/index.html",
+    "kind": "passage"
+  },
+  {
+    "query": "where does astro write the packed search index",
+    "positive_url": "/remixsearch_wasm/astro/index.html",
+    "kind": "passage"
+  },
+  {
+    "query": "how does the browser search wasm index work",
+    "positive_url": "/remixsearch_wasm/index.html",
+    "kind": "passage"
+  },
+  {
+    "query": "how does RemixSearch.open load the index",
+    "positive_url": "/remixsearch_wasm/struct.RemixSearch.html",
+    "kind": "passage"
+  },
+  {
+    "query": "how are brotli blocks packed in the search index",
+    "positive_url": "/remixsearch_format/fn.brotli_compress.html",
+    "kind": "passage"
+  },
+  {
+    "query": "what is stored in the search index manifest",
+    "positive_url": "/remixsearch_format/struct.Manifest.html",
+    "kind": "passage"
+  },
+  {
+    "query": "how does hnsw search the index",
+    "positive_url": "/remixsearch_infer/struct.HnswGraph.html",
+    "kind": "passage"
+  },
+  {
+    "query": "how does cosine rank the nearest pages",
+    "positive_url": "/remixsearch_infer/struct.Searcher.html",
+    "kind": "passage"
+  },
+  {
+    "query": "how is the query encoder distilled",
+    "positive_url": "/remixsearch_train/fn.distill.html",
+    "kind": "passage"
+  },
+  {
+    "query": "how do I ingest html into a search index",
+    "positive_url": "/remixsearch_build/fn.ingest_path.html",
+    "kind": "passage"
+  },
+  {
+    "query": "how do I pack a search index",
+    "positive_url": "/remixsearch_build/fn.pack_index.html",
+    "kind": "passage"
+  },
+  {
+    "query": "how does the remixsearch cli build an index",
+    "positive_url": "/remixsearch/index.html",
+    "kind": "passage"
+  }
+]

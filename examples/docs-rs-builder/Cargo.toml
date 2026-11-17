@@ -1,0 +1,13 @@
+[package]
+name = "docs-rs-builder"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+description = "Generate rustdoc for this workspace and add a search index"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "docs-rs-builder"
+path = "src/main.rs"

@@ -1,0 +1,8 @@
+{
+  "name": "astro-remixsearch",
+  "version": "0.1.0",
+  "description": "Astro integration that packs a remixsearch index after build",
+  "license": "MIT OR Apache-2.0",
+  "type": "module",
+  "exports": "./index.mjs"
+}

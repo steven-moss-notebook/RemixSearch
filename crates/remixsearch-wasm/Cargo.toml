@@ -1,0 +1,19 @@
+[package]
+name = "remixsearch-wasm"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+description = "Browser bindings for semantic search"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+remixsearch-format = { path = "../remixsearch-format" }
+remixsearch-infer = { path = "../remixsearch-infer" }
+serde_json = "1"
+wasm-bindgen = "=0.2.127"
+wasm-bindgen-futures = "=0.4.77"
+js-sys = "=0.3.104"
+web-sys = { version = "=0.3.104", features = ["Window", "Request", "RequestInit", "RequestMode", "Response"] }
+console_error_panic_hook = "0.1"

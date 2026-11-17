@@ -1,0 +1,15 @@
+[package]
+name = "remixsearch-build"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+description = "Ingest site content and pack a brotli search index"
+
+[dependencies]
+remixsearch-format = { path = "../remixsearch-format" }
+remixsearch-infer = { path = "../remixsearch-infer" }
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "gif", "webp"] }
+pulldown-cmark = "0.13"
+scraper = "0.23"
+serde_json = "1"
+thiserror = "2"
